@@ -3,8 +3,8 @@ package userservice
 import (
 	"log"
 
-	"github.com/explodes/scratch/quarry/examples/rpcd/rpcdpb"
-	"github.com/explodes/scratch/quarry/examples/rpcd/rpcdquarry"
+	"github.com/explodes/quarry/examples/rpcd/rpcdpb"
+	"github.com/explodes/quarry/examples/rpcd/rpcdquarry"
 	"golang.org/x/net/context"
 )
 

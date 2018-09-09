@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/explodes/scratch/quarry"
-	"github.com/explodes/scratch/quarry/examples/sample/samplepb"
-	"github.com/explodes/scratch/quarry/examples/sample/samplequarry"
+	"github.com/explodes/quarry"
+	"github.com/explodes/quarry/examples/sample/samplepb"
+	"github.com/explodes/quarry/examples/sample/samplequarry"
 )
 
 func init() {
 	graph := samplequarry.Default()
 
 	// Dependencies for UserService would normally be provided by the graph.
-	// For a service-like object, consider a fillsmith.Singleton.
+	// For a service-like object, consider a quarry.Singleton.
 	userService := &UserService{}
 	graph.MustAddFactory("userService", quarry.Provider(userService))
 

@@ -1,6 +1,6 @@
 package samplequarry
 
-import "github.com/explodes/scratch/quarry"
+import "github.com/explodes/quarry"
 
 var graph = quarry.New()
 

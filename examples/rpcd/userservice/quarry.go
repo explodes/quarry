@@ -3,11 +3,11 @@ package userservice
 import (
 	"context"
 
-	"github.com/explodes/scratch/quarry/examples/rpcd/rpcdpb"
+	"github.com/explodes/quarry/examples/rpcd/rpcdpb"
 	"google.golang.org/grpc"
 
-	"github.com/explodes/scratch/quarry"
-	"github.com/explodes/scratch/quarry/examples/rpcd/rpcdquarry"
+	"github.com/explodes/quarry"
+	"github.com/explodes/quarry/examples/rpcd/rpcdquarry"
 )
 
 func init() {

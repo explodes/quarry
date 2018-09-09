@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/explodes/scratch/quarry"
+	"github.com/explodes/quarry"
 	"github.com/stretchr/testify/assert"
 )
 

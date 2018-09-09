@@ -7,15 +7,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/explodes/scratch/quarry/examples/rpcd/rpcdpb"
+	"github.com/explodes/quarry/examples/rpcd/rpcdpb"
 
 	"google.golang.org/grpc"
 
-	"github.com/explodes/scratch/quarry"
-	"github.com/explodes/scratch/quarry/examples/rpcd/rpcdquarry"
+	"github.com/explodes/quarry"
+	"github.com/explodes/quarry/examples/rpcd/rpcdquarry"
 
-	_ "github.com/explodes/scratch/quarry/examples/rpcd/userservice"
-	_ "github.com/explodes/scratch/quarry/examples/rpcd/userstorage"
+	_ "github.com/explodes/quarry/examples/rpcd/userservice"
+	_ "github.com/explodes/quarry/examples/rpcd/userstorage"
 )
 
 const (

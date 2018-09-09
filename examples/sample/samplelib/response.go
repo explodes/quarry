@@ -3,9 +3,9 @@ package samplelib
 import (
 	"context"
 
-	"github.com/explodes/scratch/quarry"
-	"github.com/explodes/scratch/quarry/examples/sample/samplepb"
-	"github.com/explodes/scratch/quarry/examples/sample/samplequarry"
+	"github.com/explodes/quarry"
+	"github.com/explodes/quarry/examples/sample/samplepb"
+	"github.com/explodes/quarry/examples/sample/samplequarry"
 )
 
 func init() {
